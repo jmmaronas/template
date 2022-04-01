@@ -387,18 +387,12 @@ h1, h2, h3, h4, h5, h6 {
 #hero .btn-watch-video:hover i {
   color: #47b2e4;
 }
-#hero .animated {
-  animation: up-down 2s ease-in-out infinite alternate-reverse both;
-}
+
 @media (max-width: 991px) {
   #hero {
     height: 100vh;
     text-align: center;
-  }
-  #hero .animated {
-    -webkit-animation: none;
-    animation: none;
-  }
+  }  
   #hero .hero-img {
     text-align: center;
   }

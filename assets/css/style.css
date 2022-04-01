@@ -14,12 +14,12 @@ body {
 }
 
 a {
-  color: #47b2e4;
+  color: #08fc66;
   text-decoration: none;
 }
 
 a:hover {
-  color: #73c5eb;
+  color: #08fc66;
   text-decoration: none;
 }
 
@@ -95,7 +95,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #6bc1e9;
+  background: #0a0a0a;
   color: #fff;
 }
 .back-to-top.active {
@@ -112,7 +112,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 15px 0;
 }
 #header.header-scrolled, #header.header-inner-pages {
-  background: rgba(40, 58, 90, 0.9);
+  background: rgba(29, 174, 70, 0.9);
 }
 #header .logo {
   font-size: 30px;
@@ -166,7 +166,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 5px;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #47b2e4;
+  color: #247844;
 }
 .navbar .getstarted, .navbar .getstarted:focus {
   padding: 8px 20px;
@@ -174,7 +174,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50px;
   color: #fff;
   font-size: 14px;
-  border: 2px solid #47b2e4;
+  border: 2px solid #0c783b;
   font-weight: 600;
 }
 .navbar .getstarted:hover, .navbar .getstarted:focus:hover {
@@ -204,13 +204,13 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 14px;
   text-transform: none;
   font-weight: 500;
-  color: #0c3c53;
+  color: #08fc66;
 }
 .navbar .dropdown ul a i {
   font-size: 12px;
 }
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #47b2e4;
+  color: #08fc66;
 }
 .navbar .dropdown:hover > ul {
   opacity: 1;
@@ -335,7 +335,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 80vh;
-  background: #37517e;
+  background: linear-gradient(45deg, rgba(79,235,41,1) 35%, rgba(35, 86, 226, 0.988) 100%);
 }
 #hero .container {
   padding-top: 72px;
@@ -464,7 +464,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #37517e;
+  color: #377e5f;
 }
 .section-title h2::before {
   content: "";
@@ -574,7 +574,7 @@ section {
 .why-us .content h3 {
   font-weight: 400;
   font-size: 34px;
-  color: #37517e;
+  color: #377e5f;
 }
 .why-us .content h4 {
   font-size: 20px;
@@ -676,7 +676,7 @@ section {
 .skills .content h3 {
   font-weight: 700;
   font-size: 32px;
-  color: #37517e;
+  color: #377e5f;
   font-family: "Poppins", sans-serif;
 }
 .skills .content ul {
@@ -968,7 +968,7 @@ section {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 20px;
-  color: #37517e;
+  color: #377e5f;
 }
 .team .member span {
   display: block;
@@ -1040,7 +1040,7 @@ section {
   font-weight: 500;
   margin-bottom: 15px;
   font-size: 20px;
-  color: #37517e;
+  color: #377e5f;
 }
 .pricing h4 {
   font-size: 48px;
@@ -1384,7 +1384,7 @@ section {
 .breadcrumbs h2 {
   font-size: 28px;
   font-weight: 600;
-  color: #37517e;
+  color: #377e5f;
 }
 .breadcrumbs ol {
   display: flex;
@@ -1424,7 +1424,7 @@ section {
   padding: 0;
   line-height: 1;
   font-weight: 600;
-  color: #37517e;
+  color: #377e5f;
 }
 #footer .footer-newsletter form {
   margin-top: 30px;
@@ -1472,7 +1472,7 @@ section {
   line-height: 1;
   text-transform: uppercase;
   font-weight: 600;
-  color: #37517e;
+  color: #377e5f;
 }
 #footer .footer-top .footer-contact p {
   font-size: 14px;
@@ -1484,7 +1484,7 @@ section {
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #37517e;
+  color: #377e5f;
   position: relative;
   padding-bottom: 12px;
 }

@@ -335,8 +335,10 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 30rem;
+  height: 40rem;
   background-image: url("../img/fondo.jpg");
+  background-size:contain;
+  background-position: top;
   /*background: linear-gradient(45deg, rgba(79,235,41,1) 35%, rgba(35, 86, 226, 0.988) 100%);*/
 }
 #hero .container {

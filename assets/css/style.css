@@ -111,7 +111,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 997;
   padding: 15px 0;
   background: rgb(36,150,209);
-  background: linear-gradient(107deg, rgba(36,150,209,1) 25%, rgba(98,208,169,1) 100%);
+  background: linear-gradient(107deg, rgba(36,150,209,1) 10%, rgba(98,208,169,1) 100%);
 }
 #header.header-scrolled, #header.header-inner-pages {
   background: rgb(36,150,209);

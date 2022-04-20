@@ -2,4 +2,15 @@
     #logoBtrazer{
       display: none !important;
     }
-  }
+}
+
+@font-face {
+  font-family: "tt0140m_";
+  src: url("../fonts/tt0140m_.ttf");
+}
+
+
+@font-face {
+  font-family: "FtraHv";
+  src: url("../fonts/FtraHv.ttf");
+}

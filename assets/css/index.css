@@ -14,3 +14,15 @@
   font-family: "FtraHv";
   src: url("../fonts/FtraHv.ttf");
 }
+
+
+.servicios{
+  background-color: #08fc66;
+}
+
+#contenedroLogo{
+  position: relative;
+}
+#logoBtrazer{
+  position: relative;
+}

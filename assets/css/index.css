@@ -26,3 +26,6 @@
 #logoBtrazer{
   position: relative;
 }
+*{
+  letter-spacing: 2px;
+}

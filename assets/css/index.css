@@ -15,10 +15,10 @@
   src: url("../fonts/FtraHv.ttf");
 }
 
-
-.servicios{
-  background-color: #08fc66;
+*{
+  letter-spacing: 2px;
 }
+
 
 #contenedroLogo{
   position: relative;
@@ -26,6 +26,7 @@
 #logoBtrazer{
   position: relative;
 }
-*{
-  letter-spacing: 2px;
+
+.servicios{
+  background-color: #08fc66;
 }

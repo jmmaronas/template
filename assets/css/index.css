@@ -19,6 +19,66 @@
   letter-spacing: 1.5px;
 }
 
+.logosExternos{
+  width: 20rem;
+  height: 8rem;
+  object-fit: cover;  
+}
+#cissp{
+  background-image: url("../img/certificate/cissp.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+#iso_27001_surus{
+  background-image: url("../img/certificate/iso_27001_surus-inversa.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:contain;
+}
+#ccsk{
+  background-image: url("../img/certificate/ccsk.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:contain;
+}
+/* patners */
+#hyperledger{
+  background-image: url("../img/patners/hyperledger.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:contain;
+}
+#Laacchain{
+  background-image: url("../img/patners/lacchain.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:contain;
+}
+#Besu{
+  background-image: url("../img/patners/Besu.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:contain;
+}
+#Amazon{
+  background-image: url("../img/patners/Amazon.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:contain;
+}
+#signature{
+  background-image: url("../img/certificate/ccsk.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:contain;
+}
+#ciditic{
+  background-image: url("../img/patners/ciditic.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:contain;
+}
 
 #contenedroLogo{
   position: relative;

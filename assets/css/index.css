@@ -20,8 +20,8 @@
 }
 
 .logosExternos{
-  width: 20rem;
-  height: 8rem;
+  width: 22rem;
+  height: 12rem;
   object-fit: cover;  
 }
 #cissp{
@@ -41,6 +41,36 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size:contain;
+}
+#cissp{
+  background-image: url("../img/certificate/cissp.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+#scan-244451947{
+  background-image: url("../img/certificate/ios_scan_244451947.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+#scan-3041581528{
+  background-image: url("../img/certificate/ios_scan_3041581528.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+#scan-3215668897{
+  background-image: url("../img/certificate/ios_scan_3215668897.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+#scan-3588380952{
+  background-image: url("../img/certificate/ios_scan_3588380952.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 /* patners */
 #hyperledger{

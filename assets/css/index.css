@@ -109,6 +109,19 @@
   background-position: center;
   background-size:contain;
 }
+/* Clientes */
+#IMG_6243{
+  background-image: url("../img/clients/IMG_6243.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:contain;
+}
+#labs{
+  background-image: url("../img/clients/Labs.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:contain;
+}
 
 #contenedroLogo{
   position: relative;

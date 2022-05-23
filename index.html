@@ -25,7 +25,7 @@
   <link href="assets/css/style.css" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/index.css">
 
-
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 
 <body>
@@ -35,7 +35,6 @@
     <div class="container d-flex align-items-center">
       <a href="index.html" class="logo col-4 col-lg-2 me-auto d-flex">
         <img class="w-100" src="./assets/img/HORIZONTAL.png" alt="logo">
-        <!-- <p class="fs-3 text-dark my-auto"><strong class="text-light">BT</strong>razer® LLC.</p> -->
       </a>
       <nav id="navbar" class="navbar">
         <ul>
@@ -128,12 +127,38 @@
           </div>
           <div class="carousel-item">
             <div id="Amazon" class="logosExternos m-auto"></div>
-          </div>
-          <div class="carousel-item">
-            <div id="signature" class="logosExternos m-auto"></div>
-          </div>
+          </div>          
           <div class="carousel-item">
             <div id="ciditic" class="logosExternos m-auto"></div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      </div>
+    </section>
+    <!-- End Patners Section -->
+
+    <!-- ====== Clients Section ======= -->
+    <section id="clients" class="clients section-bg">
+      <div class="section-title my-4">
+        <h2>CLientes</h2>
+      </div>
+      <div id="carouselExampleControls" class="carousel slide my-3" data-bs-ride="carousel">
+        <div class="carousel-inner m-auto">
+          <div class="carousel-item active">
+            <div id="IMG_6243" class="logosExternos m-auto"></div>
+          </div>
+          <div class="carousel-item">
+            <div id="labs" class="logosExternos m-auto"></div>
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
@@ -150,13 +175,13 @@
 
       </div>
     </section>
-
     <!-- End Patners Section -->
+
     <!-- ======= Certificate Section ======= -->
     <section id="certificate" class="clients section-bg">
       <div class="section-title my-4">
         <h2>Certificados</h2>
-        <p>Autocertificación en el sector agroalimentaria
+        <p class="px-lg-5 px-2">Autocertificación en el sector agroalimentaria
           La aplicación clave de blockchain en la industria agro es la trazabilidad, el beneficio fundamental es,
           indudablemente, el aumento de la confianza.
           La tecnología Blockchain permite rastrear el origen de los productos de forma segura y confiable, siendo una
@@ -254,124 +279,37 @@
     <!-- End Services Section -->
 
 
-    <!-- ======= Frequently Asked Questions Section ======= -->
-    <!-- <section id="faq" class="faq section-bg">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Preguntas Frecuentes</h2>
-          
-        </div>
-
-        <div class="faq-list">
-          <ul>
-            <li data-aos="fade-up" data-aos-delay="100">
-              <i class="bx bx-help-circle icon-help"></i>
-              <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">
-                ¿Requiero acceso a internet para guardar mis rastros?
-                <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i>
-              </a>
-              <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
-                <p>
-                  No, una vez instalada la aplicación no requiere acceso a internet para el rastreo. Sin embargo al
-                  visualizar tu ubicación en el mapa o compartir tu historial de rastros en la cadena de bloques se
-                  necesitará estar conectado a internet.
-                </p>
-              </div>
-            </li>
-
-            <li data-aos="fade-up" data-aos-delay="200">
-              <i class="bx bx-help-circle icon-help"></i>
-              <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">
-                ¿Si cambio de celular puedo recuperar mis rastros?
-                <i class="bx bx-chevron-down icon-show"></i>
-                <i class="bx bx-chevron-up icon-close"></i>
-              </a>
-              <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                  Si, Siempre que los datos hayan sido guardados en la cadena de bloques.
-                </p>
-              </div>
-            </li>
-
-            <li data-aos="fade-up" data-aos-delay="300">
-              <i class="bx bx-help-circle icon-help"></i>
-              <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">
-                Si mi rastro ya se guarda automáticamente por GPS y Bluetooth™, ¿para qué me sirve el código QR?
-                <i class="bx bx-chevron-down icon-show"></i>
-                <i class="bx bx-chevron-up icon-close"></i>
-              </a>
-              <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                  Con el GPS activado guardas automáticamente tu ubicación aproximada (+/- 50 mts.). Con el Bluetooth™
-                  activado guardas automáticamente tus cruces con otros usuarios de la aplicación (+/- 5 mts.). Escanear
-                  códigos QR te sirve para guardar un rastro muy específico de un cruce o ubicación, pues deberás estar
-                  muy cerca para poder escanearlo (+/- 1 mts.).
-                </p>
-              </div>
-            </li>
-
-            <li data-aos="fade-up" data-aos-delay="400">
-              <i class="bx bx-help-circle icon-help"></i>
-              <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">
-                ¿Alguna autoridad o Rastrar.com puede ver mis datos?
-                <i class="bx bx-chevron-down icon-show"></i>
-                <i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                  Toda la información se encuentra únicamente en tu dispositivo móvil y sobdepende solo de ti el
-                  compartirla o no en la cadena de bloques.
-                </p>
-              </div>
-            </li>
-          </ul>
-        </div>
-
-      </div>
-    </section> -->
-    <!-- End Frequently Asked Questions Section -->
+    
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
       <div class="container" data-aos="fade-up">
-        <form action="" class="section-title col-md-8 mx-auto">
+        <form id="contact-form" action="" class="section-title col-md-8 mx-auto">
           <h2>Contacto</h2>
           <div class="mb-3">
-            <label for="formName" class="form-label">Nombre y Apellido</label>
-            <input type="text" class="form-control my-3" id="formName" placeholder="Juan Perez">
+            <input type="hidden" name="contact_number">
+            <label for="user_name" class="form-label">Nombre y Apellido</label>
+            <input type="text" class="form-control my-3" id="user_name" name="user_name" placeholder="Juan Perez">
             <label for="formTel" class="form-label">Telefon de contacto</label>
-            <input type="tel" class="form-control my-3" id="formTel" placeholder="+507-6902-9979">
-            <label for="formMail" class="form-label">Email</label>
-            <input type="email" class="form-control my-3" id="formMail" placeholder="name@example.com">
+            <input type="tel" class="form-control my-3" id="formTel" name="user_tel" placeholder="+507-6902-9979">
+            <label for="user_email" class="form-label">Email</label>
+            <input type="email" class="form-control my-3" id="user_email" name="user_email" placeholder="name@example.com">
           </div>
           <div class="mb-3">
-            <label for="formTextarea" class="form-label">Dejanos tu consulta</label>
-            <textarea class="form-control my-3" id="formTextarea" rows="3"></textarea>
+            <label for="message" class="form-label">Dejanos tu consulta</label>
+            <textarea class="form-control my-3" id="message" name="message" rows="3"></textarea>
           </div>
           <input type="submit" class="btn btn-primary"></input>
         </form>
 
-    </section><!-- End Contact Section -->
+    </section>
+  <!-- End Contact Section -->
 
-  </main><!-- End #main -->
+  </main>
+  <!-- End #main -->
 
   <!-- ======= Footer ======= -->
   <footer id="footer">
-
-    <!-- <div class="footer-newsletter">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-6">
-            <h4>Join Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form>
-          </div>
-        </div>
-      </div>
-    </div> -->
-
     <div class="footer-top">
       <div class="container">
         <div class="row">
@@ -444,8 +382,9 @@
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
   <!-- Template Main JS File -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>  
+  <script src="./assets/js/mail.js"></script>
   <script src="assets/js/main.js"></script>
-
 </body>
 
 </html>

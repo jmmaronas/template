@@ -41,7 +41,7 @@
           <li><a class="nav-link scrollto" href="#about">Funcionalidad</a></li>
           <li><a class="nav-link scrollto" href="#services">Servicios</a></li>
           <li><a class="nav-link scrollto" href="#collaborators">Aliados</a></li>
-          <li><a class="nav-link scrollto" href="#clients">Clientes</a></li>          
+          <li><a class="nav-link scrollto" href="#clients">Clientes</a></li>
           <li><a class="nav-link scrollto" href="#certificate">Certificados</a></li>
           <li><a class="nav-link scrollto" href="#contact">Contacto</a></li>
           <li><a class="getstarted scrollto" href="http://www.btrazer.com/">Login</a></li>
@@ -85,6 +85,7 @@
 
   <main id="main">
 
+
     <!-- ======= Comment Us Section ======= -->
     <section id="about" class="about">
       <div class="container" data-aos="fade-up">
@@ -108,29 +109,46 @@
         </div>
     </section>
     <!-- End Comment Us Section -->
-
+    <section id="noticias" class="about">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Noticas</h2>
+        </div>
+        <div class="row content">
+          <a class="text-center" href="https://www.serindustria.com.ar/mas-paises-van-a-exigir-la-trazabilidad-con-blockchain-de-los-productos-antes-de-importarlos/"
+            frameborder="0">
+            <img class="w-50" style="max-height: 20rem;" src="./assets/img/nota.PNG" alt="nota.png">
+          </a>
+        </div>
+      </div>
+    </section>
 
     <!-- ======= Collaborators Section ======= -->
     <section id="collaborators" class="clients section-bg">
       <div class="section-title my-4">
         <h2>Aliados</h2>
       </div>
-      <div class="d-flex align-items-center overflow-scroll scrollLogos clearfix">
-        <div class="mw-50 " style="min-width: 600px;">
-          <img src="./assets/img/patners/hyperledger.png" alt="">
+      <div class="position-relative">
+        <div id="scrollCol" class="d-flex align-items-center overflow-scroll clearfix scrollLogos">
+          <div class="mw-50 " style="min-width: 30rem;">
+            <img src="./assets/img/patners/hyperledger.png" alt="">
+          </div>
+          <div class="mw-50" style="min-width: 30rem;">
+            <img src="./assets/img/patners/Laacchain-BID-Lab .gif" alt="">
+          </div>
+          <div class="mw-50" style="min-width: 30rem;">
+            <img src="./assets/img/patners/Besu.png" alt="">
+          </div>
+          <div class="mw-50" style="min-width: 30rem;">
+            <img src="./assets/img/patners/Amazon.png" alt="">
+          </div>
+          <div class="mw-50" style="min-width: 30rem;">
+            <img src="./assets/img/patners/ciditic.png" alt="">
+          </div>
         </div>
-        <div class="mw-50" style="min-width: 600px;">
-          <img src="./assets/img/patners/Laacchain-BID-Lab .gif" alt="">
-        </div>
-        <div class="mw-50" style="min-width: 600px;">
-          <img src="./assets/img/patners/Besu.png" alt="">
-        </div>
-        <div class="mw-50" style="min-width: 600px;">
-          <img src="./assets/img/patners/Amazon.png" alt="">
-        </div>
-        <div class="mw-50" style="min-width: 600px;">
-          <img src="./assets/img/patners/ciditic.png" alt="">
-        </div>
+        <button id="scrollColLeft" class="btn btn-light position-absolute top-50 end-0"><span>></span></button>
+        <button id="scrollColRight" class="btn btn-light position-absolute top-50 start-0"><span>
+            < </span></button>
       </div>
       </div>
     </section>
@@ -141,14 +159,18 @@
       <div class="section-title my-4">
         <h2>Clientes</h2>
       </div>
-
-      <div class="d-flex flex-wrap align-items-center">
-        <div class="col-lg-6 col-12">
-          <img src="./assets/img/clients/IMG_6243.png" alt="">
+      <div class="position-relative">
+        <div id="scrollCli" class="d-flex align-items-center overflow-scroll clearfix scrollLogos">
+          <div class="mw-50" style="min-width: 30rem;">
+            <img src="./assets/img/clients/IMG_6243.png" alt="">
+          </div>
+          <div class="mw-50" style="min-width: 30rem;">
+            <img class="img-fluid bg-dark px-3 rounded" src="./assets/img/clients/Labs.png" alt="">
+          </div>
         </div>
-        <div class="col-lg-6 col-10 bg-white-50">
-          <img class="img-fluid bg-dark px-3 rounded" src="./assets/img/clients/Labs.png" alt="">
-        </div>
+        <button id="scrollCliLeft" class="btn btn-light position-absolute top-50 end-0"><span>></span></button>
+        <button id="scrollCliRight" class="btn btn-light position-absolute top-50 start-0"><span>
+            < </span></button>
       </div>
       </div>
     </section>
@@ -169,28 +191,33 @@
           America y Europa.
         </p>
       </div>
-      <div class="d-flex align-items-center overflow-scroll clearfix scrollLogos">
-        <div class="mw-50" style="min-width: 600px;">
-          <img src="./assets/img/certificate/ccsk.png" alt="">
+      <div class="position-relative">
+        <div id="scrollCer" class="d-flex align-items-center overflow-scroll clearfix scrollLogos">
+          <div class="mw-50" style="min-width: 30rem;">
+            <img src="./assets/img/certificate/ccsk.png" alt="">
+          </div>
+          <div class="mw-50 " style="min-width: 30rem;">
+            <img src="./assets/img/certificate/ios_scan_244451947.png" alt="">
+          </div>
+          <div class="mw-50" style="min-width: 30rem;">
+            <img src="./assets/img/certificate/ios_scan_3041581528.png" alt="">
+          </div>
+          <div class="mw-50" style="min-width: 30rem;">
+            <img src="./assets/img/certificate/iso_27001_surus-inversa.png" alt="">
+          </div>
+          <div class="mw-50" style="min-width: 40rem;">
+            <img src="./assets/img/certificate/ios_scan_3215668897.png" alt="">
+          </div>
+          <div class="mw-50" style="min-width: 30rem;">
+            <img src="./assets/img/certificate/ios_scan_3588380952.png" alt="">
+          </div>
+          <div class="mw-50" style="min-width: 50rem;">
+            <img class="img-fluid" src="./assets/img/certificate/cissp.png" alt="">
+          </div>
         </div>
-        <div class="mw-50 " style="min-width: 600px;">
-          <img src="./assets/img/certificate/ios_scan_244451947.png" alt="">
-        </div>
-        <div class="mw-50" style="min-width: 600px;">
-          <img src="./assets/img/certificate/ios_scan_3041581528.png" alt="">
-        </div>
-        <div class="mw-50" style="min-width: 600px;">
-          <img src="./assets/img/certificate/iso_27001_surus-inversa.png" alt="">
-        </div>
-        <div class="mw-50" style="min-width: 600px;">
-          <img src="./assets/img/certificate/ios_scan_3215668897.png" alt="">
-        </div>
-        <div class="mw-50" style="min-width: 600px;">
-          <img src="./assets/img/certificate/ios_scan_3588380952.png" alt="">
-        </div>
-        <div class="mw-50" style="min-width: 600px;">
-          <img class="img-fluid" src="./assets/img/certificate/cissp.png" alt="">
-        </div>
+        <button id="scrollCerLeft" class="btn btn-light position-absolute top-50 end-0"><span>></span></button>
+        <button id="scrollCerRight" class="btn btn-light position-absolute top-50 start-0"><span>
+            < </span></button>
       </div>
     </section>
     <!-- End Certificate Section -->
@@ -351,6 +378,7 @@
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
   <script src="./assets/js/mail.js"></script>
   <script src="assets/js/main.js"></script>
+  <script src="./assets/js/scroll.js"></script>
 </body>
 
 </html>
